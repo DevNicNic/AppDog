@@ -13,7 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.nicnicdev.appdog.ui.theme.AppDogTheme
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) { //teste
         super.onCreate(savedInstanceState)
         setContent {
             AppDogTheme {
