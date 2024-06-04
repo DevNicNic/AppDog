@@ -21,7 +21,7 @@ class HomeViewModel(
     val homeState: StateFlow<HomeState> = _homeState
 
     fun getDogImage() {
-        viewModelScope.launch (Dispatchers.IO) {
+        viewModelScope.launch(Dispatchers.IO) {
             _homeState.emit(HomeState(isLoading = true))
             val dog = repository.getRandomDog()
 
