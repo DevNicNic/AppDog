@@ -19,6 +19,8 @@ class AppDogApplication : Application() {
 
             modules(
                 networkModule,
+                dataModule,
+                viewModelModule,
             )
         }
     }
